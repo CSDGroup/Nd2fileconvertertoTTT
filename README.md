@@ -1,19 +1,19 @@
 # Nd2fileconvertertoTTT
 A tool that converts nd2 file format in to a tTt readable file for manual tracking
 
-Repository Structure
-── environment.yml           # Conda environment specification
-├── .gitignore                # Files and folders to ignore in Git
-├── README.md                 # Project overview and instructions
-├── Metadataextractionnd2.py  # Metadata extraction and CSV generation
-├── ND2imageextraction.py     # Extract images using ND2 plugin
-├── ND2filecreatecomposite.py # Create composite images across channels
-├── nd2to8bitpng.py           # Convert images to 8-bit PNGs with adjustable black/white points
-├── Adjustblackwhitepoints.py # GUI for interactively setting black/white points
-├── TATexp.py                 # Generate TATexp XML for downstream analysis
-├── ImportOpenBIS.py          # Authenticate and upload data to OpenBIS
-├── Masterscript.py           # Qt5-based master application wrapping the full pipeline
-└── myscript.bat              # Windows batch file for launching the pipeline
+**Repository Structure**
+environment.yml           # Conda environment specification
+gitignore                # Files and folders to ignore in Git
+README.md                 # Project overview and instructions
+Metadataextractionnd2.py  # Metadata extraction and CSV generation
+ND2imageextraction.py     # Extract images using ND2 plugin
+ND2filecreatecomposite.py # Create composite images across channels
+nd2to8bitpng.py           # Convert images to 8-bit PNGs with adjustable black/white points
+Adjustblackwhitepoints.py # GUI for interactively setting black/white points
+TATexp.py                 # Generate TATexp XML for downstream analysis
+ImportOpenBIS.py          # Authenticate and upload data to OpenBIS
+Masterscript.py           # Qt5-based master application wrapping the full pipeline
+myscript.bat              # Windows batch file for launching the pipeline
 
 Features
 
